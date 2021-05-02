@@ -1,0 +1,32 @@
+# CLASE
+#Practica for y range:
+###1
+for i in range(21):# Con el for se asigna la variable i, asignándole un rango de (0,21)
+    print(i, i ** 3) #Se imprime los valores de 0 hasta 20(el 21 es exclusivo) , después se imprime i pero elevados al cubo.
+###2
+for i in range(10, 0, -1): #a I se le asigna un rango desde 10 hasta 0
+
+    print(i)# Imprime los números desde el 10 hasta el 1 (10,9,8,7,6,,5,4,3,2,1) al final imprime feliz anio
+
+print('Feliz anio nuevo!')# al final del rango se imprime”feliz anio nuevo”
+###3
+for i in [0,1,2,3,4]: #Para I se asigna 0, 1, 2, 3, 4
+
+print("Hola")# Para el rango anterior se imprime hola(5 veces)
+###4
+for i in range(5):# Para la variable I el rango de 5(0 hasta 4)
+
+print("Ahora i vale",i,"y su cuadrado", i**2)# se imprime” ahora i vale” y se escribe el número normal(rango)
+
+#después se escribe “y su cuadrado” y se escribe el cuadrado del numero enunciado antes
+
+###4
+for i in ['JLo', 'Benito', 'Rosalia', 2021]:# a la variable I se le asigna “Jlo, Benito,Rosalia,2021”
+    print("Hola. Ahora i vale",i) #se imprime “Hola, Ahora i vale” (Jlo despues Benito después Rosalia por ultimo 2021)
+    
+###5
+for i in range (3):
+    for j in range (2):
+        print("i vale", i, "y j vale", j)
+        
+        
