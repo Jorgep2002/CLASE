@@ -1,0 +1,45 @@
+# LABORATORIOS-Y-PRACTICAS
+TRABAJOS EN CLASE
+#FUNCIONES
+###Evaluar y comentar las siguientes funciones.
+
+##1
+print(max(2, 3)) # Devuelve 3(ya que este es el mayor valor).
+##2
+print(max(2, 3, 23)) # Devuelve 23 (ya que este es el mayor valor).
+##3
+list1 = [1, 2, 4, 5, 54]
+print(max(list1)) # Devuelve 54 ya que 54 es el valor más grande de la lista.
+##4
+list2 = ['a', 'b', 'c']
+print(max(list2))#Devuelve c.
+##5
+list3 = [1, 2, 'abc', 'xyz']
+
+print(max(list3)) # Se genera TypeError ya que los valores en la lista son de tipos diferentes
+
+
+###Escribir salida de los codigos.
+print(divmod(5,2)) # muestra (2,1)
+
+print(divmod(13.5,2.5)) # Devuelve 5.0 y 1.0
+
+q,r = divmod(13.5,2.5) # Asigna q=cociente & r=resto
+
+print(q) # muestra 5.0 porque math.floor(13.5/2.5) = 5.0
+
+
+###EJEMPLOS DE FUNCIONES.
+##Devuelve el valor ASCII de una cadena o carácter.
+print(ord(‘A’))
+##Convierte una cadena con un separador en una lista.
+a = (“hola esto sera una lista”)
+Lista2 = a.split()
+
+print (Lista2)
+#Reemplaza una cadena por otra.
+texto = “Manuel es mi amigo”
+
+print (texto.replace (‘es’, ‘era’))
+
+# Devuelve “Manuel era mi amigo” ya que remplazo “es” por “era”.
