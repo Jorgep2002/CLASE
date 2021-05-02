@@ -1,0 +1,19 @@
+# CLASE
+#TRABAJOS EN CLASE
+#Condicionales
+###1
+numero = int(input("Introduzca un numero: ")) 
+if numero % 3==0 and numero % 5==0: 
+    print("El numero cumple") 
+else: print("El numero no cumple")
+
+###2
+nota1 = float(input("Introduzca la primer nota: ")) 
+nota2 = float(input("Introduzca la segundo nota: ")) 
+nota3 = float(input("Introduzca la tercer nota: ")) 
+promedio = (nota1 + nota2 + nota3 ) /3 
+if promedio >= 7: print("Promedio= ", promedio) 
+elif promedio >= 4 and promedio<7: 
+    print('Relugar') 
+else: 
+    print("No habilitado")
